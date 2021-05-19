@@ -1,9 +1,26 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
 /* 
     Created on : 19.05.2021, 20:38:48
     Author     : Амалия Волощук
 */
+
+.media {
+   display: flex;
+   align-items: flex-start;
+}
+
+.media-body {
+   flex: 1;
+}
+
+.media2 {
+   display: flex;
+   align-items: flex-end;
+}
+
+.media-body2 {
+   flex: 2;
+}
+
+.media-object { 
+	order: 1 
+}
